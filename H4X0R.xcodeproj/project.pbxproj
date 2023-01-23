@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE9BEF2D297EEEB5005FD4E0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9BEF2C297EEEB5005FD4E0 /* NetworkManager.swift */; };
+		FE9BEF2F297EF2AC005FD4E0 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9BEF2E297EF2AC005FD4E0 /* PostData.swift */; };
 		FE9D4F4F297EB7B100E15320 /* H4X0RApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9D4F4E297EB7B100E15320 /* H4X0RApp.swift */; };
 		FE9D4F51297EB7B100E15320 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9D4F50297EB7B100E15320 /* ContentView.swift */; };
 		FE9D4F53297EB7B300E15320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE9D4F52297EB7B300E15320 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE9BEF2C297EEEB5005FD4E0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FE9BEF2E297EF2AC005FD4E0 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		FE9D4F4B297EB7B100E15320 /* H4X0R.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H4X0R.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9D4F4E297EB7B100E15320 /* H4X0RApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4X0RApp.swift; sourceTree = "<group>"; };
 		FE9D4F50297EB7B100E15320 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE9BEF2B297EEE84005FD4E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE9BEF2C297EEEB5005FD4E0 /* NetworkManager.swift */,
+				FE9BEF2E297EF2AC005FD4E0 /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FE9D4F42297EB7B100E15320 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +66,7 @@
 			children = (
 				FE9D4F4E297EB7B100E15320 /* H4X0RApp.swift */,
 				FE9D4F50297EB7B100E15320 /* ContentView.swift */,
+				FE9BEF2B297EEE84005FD4E0 /* Models */,
 				FE9D4F52297EB7B300E15320 /* Assets.xcassets */,
 				FE9D4F54297EB7B300E15320 /* Preview Content */,
 			);
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE9BEF2D297EEEB5005FD4E0 /* NetworkManager.swift in Sources */,
+				FE9BEF2F297EF2AC005FD4E0 /* PostData.swift in Sources */,
 				FE9D4F51297EB7B100E15320 /* ContentView.swift in Sources */,
 				FE9D4F4F297EB7B100E15320 /* H4X0RApp.swift in Sources */,
 			);
