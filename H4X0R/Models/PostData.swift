@@ -13,10 +13,10 @@ struct Results: Decodable {
 
 struct Post: Decodable, Identifiable {
     var id: String {
-        return obejctID
+        return objectID
     }
     let objectID: String
     let points: Int
     let title: String
-    let url: String
+    let url: String?
 }
